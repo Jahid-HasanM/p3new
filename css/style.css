@@ -25,6 +25,22 @@ img{
     --ubuntu: "Ubuntu", sans-serif;
     --praymariColor: #42454A;
 }
+.common-head{
+    text-align: center;
+}
+.common-head h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--praymariColor);
+}
+.common-head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--praymariColor);
+    margin-top: 34px;
+}
 /********** common css end**********/
 /********** navbar css start**********/
 .main-menu{
@@ -243,11 +259,18 @@ h1 span{
     font-family: var(--ubuntu);
     color: var(--praymariColor);
 }
+.all-counter{
+    display: flex;
+    justify-content: space-between;
+}
 
 /********** counter css end**********/
-/********** common css start**********/
+/********** acsecory css start**********/
+#accessories{
+    padding-top: 315px;
+}
 
-/********** common css end**********/
+/********** acsecory css end**********/
 /********** common css start**********/
 
 /********** common css end**********/
