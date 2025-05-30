@@ -269,11 +269,54 @@ h1 span{
 #accessories{
     padding-top: 315px;
 }
+.accessories-row{
+    margin-top: 112px;
+}
+.accessories-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--praymariColor);
+}
+.accessories-text ul{
+    padding: 0;
+}
+.accessories-text ul li{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-top: 33px;
+    
+}
+.accessories-text ul li img{
+    width: 49px;
+}
+.accessories-text ul li p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--praymariColor);
+}
+
 
 /********** acsecory css end**********/
-/********** common css start**********/
+/********** sopping css start**********/
+#sopping{
+    margin-top: 131px;
+    position: relative;
+}
+.sopping-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.sopping-scho img{
+    width: 779px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-/********** common css end**********/
+/********** sopping css end**********/
 /********** common css start**********/
 
 /********** common css end**********/
